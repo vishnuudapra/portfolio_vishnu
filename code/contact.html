@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* CSS for single-line layout */
+        .contact-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            text-align: center;
+        }
+
+        .contact-box {
+            flex: 1;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">VISHNU</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="education.html">Education</a>
+            <a href="skills.html">Skills</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <div class="contact-container">
+            <div class="contact-box">
+                <i class='bx bx-mail-send'></i>
+                <h3>Email</h3>
+                <p>vishnuda.2002@gmail.com</p>
+                <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=vishnuda.2002@gmail.com" target="_blank"class="btn">Send Email</a>
+            </div>
+            <div class="contact-box">
+                <i class='bx bx-phone'></i>
+                <h3>Phone</h3>
+                <p>9025364235</p>
+                <a href="tel:9025364235" class="btn">Call Me</a>
+            </div>
+            <div class="contact-box">
+                <i class='bx bx-location-plus'></i>
+                <h3>Location</h3>
+                <p>Kavindapadi, Erode, Tamilnadu, India</p>
+                <a href="https://www.google.com/maps?q=Thirumakal+Automobiles,+Kavindapadi" target="_blank" class="btn">Get Directions</a>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

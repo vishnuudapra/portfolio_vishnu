@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education Certificates</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        .center {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .certificates {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .certificates ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .certificates li {
+            font-size: 1.8rem;
+            margin: 1rem 0;
+        }
+
+        .certificates a {
+            text-decoration: none;
+            color: var(--main-color);
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: var(--main-color);
+            color: var(--bg-color);
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .certificates a:hover {
+            background-color: var(--bg-color);
+            color: var(--main-color);
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">VISHNU</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="education.html">Education</a>
+            <a href="skills.html">Skills</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <section class="certificates center" id="certificates">
+        <h2 class="heading">My <span>Education Certificates</span></h2>
+        <ul>
+            <li><a href="../certificates/10th.pdf" target="_blank">10th Marksheet</a></li><br>
+            <li><a href="../certificates/11th and 12th.pdf" target="_blank">12th Marksheet</a></li><br>
+            <li><a href="../certificates/Vishnuda result 1.pdf" target="_blank">Sem1 marksheet</a></li><br>
+            <li><a href="../certificates/Vishnuda result 2.pdf" target="_blank">Sem2 makrsheet</a></li><br>
+            <li><a href="../certificates/Vishnuda result 3.pdf" target="_blank">Sem3 Marksheet</a></li><br>
+            <li><a href="../certificates/Vishnuda result 4(1).pdf" target="_blank">Sem4 Marksheet</a></li><br>
+            <li><a href="../certificates/Vishnuda result 5.pdf" target="_blank">Sem5 Marksheet</a></li><br>
+            <li><a href="../certificates/sem6.pdf" target="_blank">Sem6 Marksheet</a></li><br>
+
+
+            <!-- Add more certificate links as needed -->
+        </ul>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
